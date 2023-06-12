@@ -1,9 +1,9 @@
-#Single Cycle MIPS Project using Vivado
+<h1>Single Cycle MIPS Project using Vivado<h1>
 
 This repository contains a Single Cycle MIPS processor implemented using Vivado. The MIPS processor is a simplified version that supports a subset of the MIPS instruction set architecture (ISA). It is implemented as a single-cycle processor, meaning that each instruction is executed in a single clock cycle.
 Project Files
 
-#The project consists of the following 12 files:
+<h2>The project consists of the following 12 files:<h2>
 
     ALU: This module represents the Arithmetic Logic Unit (ALU) of the MIPS processor. It performs various arithmetic and logical operations.
 
@@ -29,7 +29,7 @@ Project Files
 
     Sign Extend: The Sign Extend module extends the immediate value of an instruction to a 32-bit value by sign extension.
 
-#Getting Started
+<h2>Getting Started<h2>
 
 To use this project, follow these steps:
 
@@ -45,7 +45,7 @@ To use this project, follow these steps:
 
    6)Use the necessary input/output devices to interact with the MIPS processor.
 
-#Usage and Functionality
+<h2>Usage and Functionality<h2>
 
 The Single Cycle MIPS processor supports a subset of the MIPS ISA. It can execute instructions such as arithmetic and logical operations, memory loads and stores, branches, and jumps. The specific instructions supported can be found in the Instruction Memory module.
 
@@ -53,9 +53,10 @@ The MIPS module acts as the controller for the processor. It fetches instruction
 
 The processor has a 32-bit data memory represented by the Data Memory module, and a set of registers represented by the Register File module.
 
-#Result
+<h2>Result<h2>
 
 Upon successful implementation and programming of the Single Cycle MIPS processor on an FPGA board, you will have a functional processor capable of executing MIPS instructions. You can interact with the processor using input/output devices connected to the board, and observe the results of the executed instructions.
-Contributions and Issues
+
+<h2>Contributions and Issues<h2>
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue in the GitHub repository associated with this project.
